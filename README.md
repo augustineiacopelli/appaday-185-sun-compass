@@ -4,7 +4,7 @@
 
 Live: https://augustineiacopelli.github.io/appaday-185-sun-compass/
 
-Sun Compass shows where the sun is right now on a flat compass dial, with live azimuth and altitude, sunrise, solar noon, sunset, day length change, and a plain English why for each reading. Calibrate your phone compass against the sun, test your sense of direction in Predict, and scrub to any solstice or equinox.
+Sun Compass shows where the sun is on a live compass dial with azimuth, altitude, sunrise, solar noon, sunset, and a plain English why for each. Sky View overlays the day arc on your camera, Calibrate tunes your compass against the sun, Predict tests your aim, and any solstice or equinox is a tap away.
 
 ## How it works
 
@@ -28,4 +28,4 @@ The day of year and time of day sliders scrub to any moment, the four chips jump
 
 ## Notes
 
-Single self contained index.html with no dependencies. The compass needs a tap to request permission on iPhone (iOS 13 and later) and uses deviceorientationabsolute on Android. Settings, calibration and best score are stored in localStorage under appaday185.
+Single self contained index.html with no dependencies. The compass needs a tap to request permission on iPhone (iOS 13 and later) and uses deviceorientationabsolute on Android. Opening the app with ?debug=1 shows a live sensor readout for troubleshooting. Settings, calibration, zoom match and best score are stored in localStorage under appaday185.
